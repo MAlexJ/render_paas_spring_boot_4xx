@@ -1,0 +1,10 @@
+###
+POST http://localhost:8080/v1/events
+Content-Type: application/json
+
+{
+  "text": "{{$random.company.name}}"
+}
+
+###
+GET http://localhost:8080/v1/events

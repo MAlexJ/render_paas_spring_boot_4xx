@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: render_saas_spring_boot_4xx
+
+  threads:
+    virtual:
+      enabled: true
+
+  config:
+    import:
+      - optional:file:.env[.properties]
+      - classpath:server.yml
+      - classpath:management.yml
+
