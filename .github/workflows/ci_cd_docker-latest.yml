@@ -38,3 +38,6 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/render_saas_spring_boot_4xx:latest
+
+#      - name: Trigger Render deploy
+#        run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
