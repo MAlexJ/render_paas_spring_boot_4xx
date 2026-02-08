@@ -1,8 +1,8 @@
 ### PaaS service
 
 * Java 25
-* Springboot 4.0.1
-* Gradle 9.3.0
+* Springboot 4.0.2
+* Gradle 9.3.1
 * Docker / DockerHub
 * GitHub Action: CI/CD
 * PaaS: Render
